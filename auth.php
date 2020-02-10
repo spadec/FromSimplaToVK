@@ -20,7 +20,7 @@ class vkauth {
 					);
 		$url = http_build_query($params);
 		$url = rawurldecode($url);
-		echo "<a href=".$host.$url.">Авторизоватся в ВК</a>";
+		echo "<a href=".$host.$url.">Авторизоватся в ВК и начать синхронизацию</a>";
 	}
 	/**
 	 * Получаем access_token используя Authorization Code Flow 
